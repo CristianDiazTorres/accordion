@@ -1,2 +1,2 @@
 # accordion
-Example using jQuery
+Accordion example using jQuery

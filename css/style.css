@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+	color: #FFF;
+	text-decoration:none;
+	box-sizing: border-box;
+}
+ul, li{
+	list-style:none;
+}
+/******************/
+#container{
+	width:100%;
+}
+.accordion {
+ 	background-color: #181379e6;
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    display: block;
+    border-bottom: 1px solid #FFF;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+    color: #181379e6;
+}
+
+.panel {
+    padding: 20px 20px;
+    background-color: white;
+    display: none;
+}
+p{
+    color: gray;
+    line-height:1.5;	
+}
+/* .default{
+	display: block;
+}*/
